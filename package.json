@@ -1,0 +1,24 @@
+{
+  "name": "nodestarter",
+  "version": "1.0.0",
+  "description": "'node day 1'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+    "engine": "8.11.1"
+  },
+  "keywords": [
+    "'javascript",
+    "node'"
+  ],
+  "author": "integrify",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  },
+  "dependencies": {
+    "ip": "^1.1.5",
+    "nodemailer": "^4.6.7"
+  }
+}
